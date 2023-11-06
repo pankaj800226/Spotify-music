@@ -1,0 +1,23 @@
+<i class="fa-solid fa-play"></i>
+<i class="fa-solid fa-pause"></i>
+<i class="fa-solid fa-backward"></i>
+<i class="fa-solid fa-forward"></i>
+
+
+<i class="fa-solid fa-backward" id="prev" title="Previous"></i>
+<i class="fa-solid fa-play" id="play" title="Play"></i>
+<i class="fa-solid fa-forward" id="next" title="Next"></i>
+
+
+[1.] First work play song.
+[2.] second pause the song.
+[3.] create a songName and artistName and TitaleName data.
+[4.] load  songName and artistName and TitaleName data.
+[5.]  previous and next button function work
+
+
+
+
+
+
+

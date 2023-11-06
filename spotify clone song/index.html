@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Music - player</title>
+    <script src="https://kit.fontawesome.com/904d5334a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <img src="logo.png" alt="">
+           <li>Home</li>
+           <li>Music</li>
+        </nav>
+    </header>
+
+
+    <div class="main_div">
+        <div class="music_container">
+            <h2 id="title">Tu hai kaha</h2>
+            <h3 id="artist">Uraan</h3>
+            <!-- <img src="playing.gif" alt="" id="gift"> -->
+            <div class="img_container">
+                <img src="/media/pankaj-3.jpg" alt="" id="img">
+            </div>
+            <audio src="music/pankaj-3.mp3"></audio>
+            <!-- controls  -->
+            <div class="music_controls">
+                <i class="fa-solid fa-backward" id="prev" title="Previous"></i>
+                <i class="fa-solid fa-play" id="play" title="Play"></i>
+                <i class="fa-solid fa-forward" id="next" title="Next"></i>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
